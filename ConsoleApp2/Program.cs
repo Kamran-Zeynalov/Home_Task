@@ -4,6 +4,9 @@
     {
         static void Main(string[] args)
         {
+
+            #region 18.10
+
             //int num = 5;
             //if (num > 0)
             //{
@@ -33,7 +36,7 @@
 
             //Start:
             //    Console.WriteLine("Enter Number: ");
-            //   int num = Int32.Parse(Console.ReadLine());
+            //    int num = Int32.Parse(Console.ReadLine());
             //    if (num >= 90 && num <= 100)
             //    {
             //        Console.WriteLine("A");
@@ -46,11 +49,11 @@
             //    {
             //        Console.WriteLine("C");
             //    }
-            //    else if(num >= 60 && num <= 69)
+            //    else if (num >= 60 && num <= 69)
             //    {
             //        Console.WriteLine("D");
             //    }
-            //    else if(num <0 || num > 100)
+            //    else if (num < 0 || num > 100)
             //    {
             //        Console.WriteLine("Choose another number");
             //        goto Start;
@@ -59,6 +62,7 @@
             //    {
             //        Console.WriteLine("F");
             //    }
+
 
 
 
@@ -128,13 +132,87 @@
             //    Console.WriteLine("Quvvetidir");
             //else
             //    Console.WriteLine("Quvveti deyil");
-           
+
+            #endregion
+
+            #region 25.10
+            //int[] arr = { 3, 54, 12, 100, 43, 12 };
+            //Array.Sort(arr);
+
+
+            //int result = BinarySearch(arr, 43);
+
+            //if(result == -1)
+            //{
+            //    Console.WriteLine("Index Not Found");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"Index: {result}");
+            //}
+
+            //string elifba = "";
+
+            //string sentence = "salamn code academy";
+
+            //foreach (char i in sentence) { 
+
+            //    if(elifba.Contains(i))
+            //    {
+
+            //    }
+            //}
 
 
 
 
-
-
+           // Console.WriteLine(AddNum(534));
+            #endregion
         }
+
+        public static int BinarySearch(int[] arr, int search)
+        {
+            int firstValue = 0;
+            int lastValue = arr.Length - 1;
+
+            while (firstValue <= lastValue)
+            {
+                int midValue = (lastValue + firstValue) / 2;
+
+                if (arr[midValue] == search)
+                {
+                    return midValue;
+                }
+
+                if (arr[midValue] < search)
+                {
+                    firstValue = midValue + 1;
+                }
+                else
+                {
+                    lastValue = midValue - 1;
+                }
+            }
+            return -1;
+        }
+
+
+
+
+        public static int AddNum(int number)
+        {
+            int digits = 1;
+            int number2 = number;
+            while (number2 > 0)
+            {
+                digits *= 10;//10
+                number2 /= 10; //52
+
+            }
+
+            return 3* digits + number;
+        }
+
+
     }
 }

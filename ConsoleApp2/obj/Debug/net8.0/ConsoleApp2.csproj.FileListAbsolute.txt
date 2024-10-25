@@ -12,3 +12,4 @@ C:\Users\kzeyn.DESKTOP-NMNFVKM\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ne
 C:\Users\kzeyn.DESKTOP-NMNFVKM\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ConsoleApp2.pdb
 C:\Users\kzeyn.DESKTOP-NMNFVKM\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ConsoleApp2.genruntimeconfig.cache
 C:\Users\kzeyn.DESKTOP-NMNFVKM\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ref\ConsoleApp2.dll
+C:\Users\kzeyn.DESKTOP-NMNFVKM\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ConsoleApp2.sourcelink.json
